@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module moduleId="adafruit_0ccad07846e4bb0c62737f85b3b43472_1" fritzingVersion="0.5.2b.02.18.4756" referenceFile="QT Py RP2040 rev B.fzp">
+ <version>4</version>
+ <date>Tue Apr 20 2021</date>
+ <author>kattni</author>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;h2 style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a name="tab-description-heading">&lt;/a>&lt;span style=" font-size:x-large; font-weight:600;">D&lt;/span>&lt;span style=" font-size:x-large; font-weight:600;">escription &lt;/span>&lt;/h2>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a name="tab-description-content">&lt;/a>What a cutie pie! Or is it... a QT Py? This diminutive dev board comes with one of our new favorite chip, the RP2040. It's been made famous in the new &lt;a href="https://www.adafruit.com/pico">&lt;span style=" text-decoration: underline; color:#0068da;">Raspberry Pi Pico&lt;/span>&lt;/a> &lt;span style=" font-style:italic;">and&lt;/span> our &lt;a href="http://www.adafruit.com/product/4884">&lt;span style=" text-decoration: underline; color:#0068da;">Feather RP2040&lt;/span>&lt;/a> and &lt;a href="http://www.adafruit.com/product/4888">&lt;span style=" text-decoration: underline; color:#0068da;">ItsyBitsy RP2040&lt;/span>&lt;/a>, but what if we wanted something really &lt;span style=" font-style:italic;">smol?&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">A new chip means a new QT Py, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought &amp;quot;this chip is going to be awesome when we give it the cuuutie QT Py Treatment&amp;quot;, and so we did! This QT Py features the RP2040, &lt;a href="https://www.adafruit.com/category/4600">&lt;span style=" text-decoration: underline; color:#0068da;">and all niceties you know and love about the original QT Py&lt;/span>&lt;/a>&lt;/p>
+&lt;h2 style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:x-large; font-weight:600;">Plug-and-play STEMMA QT&lt;/span>&lt;/h2>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The star of the QT Py is &lt;a href="http://adafruit.com/stemma">&lt;span style=" text-decoration: underline; color:#0068da;">our favorite connector - the STEMMA QT&lt;/span>&lt;/a>, a chainable I2C port that can be used with &lt;a href="https://www.adafruit.com/category/620">&lt;span style=" text-decoration: underline; color:#0068da;">any of our STEMMA QT sensors and accessories&lt;/span>&lt;/a>. Having this connector means you don't need to do any soldering to get started.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">What can you pop into the QT port? How about &lt;a href="https://www.adafruit.com/?q=qt+oled&amp;amp;main_page=category&amp;amp;cPath=1005&amp;amp;sort=BestMatch">&lt;span style=" text-decoration: underline; color:#0068da;">OLEDs&lt;/span>&lt;/a>! &lt;a href="https://www.adafruit.com/?q=qt+imu&amp;amp;main_page=category&amp;amp;cPath=1005&amp;amp;sort=BestMatch">&lt;span style=" text-decoration: underline; color:#0068da;">Inertial Measurment Units&lt;/span>&lt;/a>! &lt;a href="https://www.adafruit.com/?q=qt+sensor&amp;amp;main_page=category&amp;amp;cPath=1005&amp;amp;sort=BestMatch">&lt;span style=" text-decoration: underline; color:#0068da;">Sensors a-plenty&lt;/span>&lt;/a>. All plug-and-play thanks to the innovative chainable design: &lt;a href="https://www.sparkfun.com/qwiic">&lt;span style=" text-decoration: underline; color:#0068da;">SparkFun Qwiic&lt;/span>&lt;/a>-compatible &lt;a href="https://learn.adafruit.com/introducing-adafruit-stemma-qt">&lt;span style=" text-decoration: underline; color:#0068da;">STEMMA QT&lt;/span>&lt;/a> connectors for the I2C bus so you don't even need to solder. Just plug in a compatible cable and attach it to your MCU of choice, and you’re ready to load up some software and measure some light.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Use any &lt;a href="http://www.sparkfun.com/qwiic">&lt;span style=" text-decoration: underline; color:#0068da;">SparkFun Qwiic&lt;/span>&lt;/a> boards! &lt;a href="https://www.adafruit.com/product/4528">&lt;span style=" text-decoration: underline; color:#0068da;">Seeed Grove I2C boards&lt;/span>&lt;/a> will also work with this adapter cable.&lt;/p>
+&lt;h2 style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:x-large; font-weight:600;">Software Support&lt;/span>&lt;/h2>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">At the time of launch, there is no Arduino core support for the chip on this board. There is great &lt;/span>&lt;a href="https://github.com/raspberrypi/pico-sdk">&lt;span style=" font-weight:600; text-decoration: underline; color:#0068da;">C/C++ support&lt;/span>&lt;/a>&lt;span style=" font-weight:600;">, an official &lt;/span>&lt;a href="https://github.com/raspberrypi/micropython">&lt;span style=" font-weight:600; text-decoration: underline; color:#0068da;">MicroPython port&lt;/span>&lt;/a>&lt;span style=" font-weight:600;">, and a &lt;/span>&lt;a href="https://circuitpython.org/downloads">&lt;span style=" font-weight:600; text-decoration: underline; color:#0068da;">CircuitPython port&lt;/span>&lt;/a>&lt;span style=" font-weight:600;">!&lt;/span> We of course &lt;a href="https://learn.adafruit.com/welcome-to-circuitpython">&lt;span style=" text-decoration: underline; color:#0068da;">recommend CircuitPython because we think it's the easiest way to get started&lt;/span>&lt;/a> and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.&lt;/p>
+&lt;h2 style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:x-large; font-weight:600;">QT Py RP2040 Specifications&lt;/span>&lt;/h2>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Pinout and shape is &lt;a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/">&lt;span style=" text-decoration: underline; color:#0068da;">Seeed Xiao&lt;/span>&lt;/a> compatible, with castellated pads so you can solder it to a PCB with a cut out to allow the bottom components some breathing room. In addition to the QT connector, we also added an &lt;span style=" font-weight:600;">RGB NeoPixel&lt;/span> (with a controllable power pin to allow for ultra-low-power usage), &lt;span style=" font-weight:600;">and both boot-mode and reset buttons&lt;/span> (great for restarting your program or entering the bootloader). This QT Py comes with loose 0.1&amp;quot; headers you can solder in for breadboard use&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. On this board there is 8MB, which is shared between the program it's running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 7 MB remaining for code, files, images, fonts, etc.&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style="" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Same size, form-factor, and pin-out as &lt;a href="https://www.adafruit.com/product/4600">&lt;span style=" text-decoration: underline; color:#0068da;">our SAMD-based QT Py&lt;/span>&lt;/a>&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">USB Type C connector &lt;/span>- &lt;a href="https://www.adafruit.com/product/4299">&lt;span style=" text-decoration: underline; color:#0068da;">If you have only Micro B cables, this adapter will come in handy&lt;/span>&lt;/a>!&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">RP2040 32-bit Cortex M0+&lt;/span> dual-core running at ~125 MHz @ 3.3V logic and power&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">264 KB RAM&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">8 MB SPI FLASH&lt;/span> chip for storing files and CircuitPython/MicroPython code storage. No EEPROM&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Native USB supported by every OS - can be used as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Can be used with &lt;span style=" font-weight:600;">MicroPython&lt;/span> or &lt;span style=" font-weight:600;">CircuitPython&lt;/span>&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">Built-in RGB NeoPixel LED&lt;/span>&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">13 GPIO pins (11 breakout pads and two QT pads):&lt;/span>&lt;/li>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;">&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">Four &lt;/span>12 bit ADCs (one more than Pico)&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Two I2C ports (one on the QT connector, one on the breakout pads)&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SPI and UART peripherals, in standard QT Py locations,&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">PWM outputs on every IO pin - for servos, LEDs, etc&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">There are 6 GPIO in consecutive order for PIO compatibility&lt;/li>&lt;/ul>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3.3V regulator with &lt;a href="https://www.diodes.com/assets/Datasheets/AP2112.pdf">&lt;span style=" font-weight:600; text-decoration: underline; color:#0068da;">600mA peak output&lt;/span>&lt;/a>&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">12 MHz crystal&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">Both Reset button and Bootloader select buttons&lt;/span> for quick restarts (no unplugging-replugging to relaunch code)&lt;/li>
+&lt;li style="" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">Really really small&lt;/span>&lt;/li>&lt;/ul>
+&lt;h2 style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:x-large; font-weight:600;">About the RP2040&lt;/span>&lt;/h2>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">Inside the RP2040 is a 'permanent ROM' USB UF2 bootloader&lt;/span>. What that means is when you want to program new firmware, you can hold down the BOOT button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique on all our native-USB boards. Just note you don't double-click reset, instead hold down BOOTSEL during boot to enter the bootloader!&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The RP2040 is a powerful chip, which has the clock speed of our M4 (SAMD51), and two cores that are equivalent to our M0 (SAMD21). Since it is an M0 chip, it does not have a floating point unit or DSP hardware support - so if you're doing something with heavy floating point math, it will be done in software and thus not as fast as an M4. For many other computational tasks, you'll get close-to-M4 speeds!&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">For peripherals, there are two I2C controllers, two SPI controllers, and two UARTs that are multiplexed across the GPIO - check the pinout for what pins can be set to which. There are 16 PWM channels, each pin has a channel it can be set to (ditto on the pinout).&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">You'll note there's no I2S peripheral, or SDIO, or camera, what's up with that? Well, instead of having specific hardware support for serial-data-like peripherals like these, the RP2040 comes with the PIO state machine system which is a unique and powerful way to create &lt;span style=" font-style:italic;">custom hardware logic and data processing blocks&lt;/span> that run on their own without taking up a CPU. For example, NeoPixels - often we bitbang the timing-specific protocol for these LEDs. For the RP2040, we instead use PIO object that reads in the data buffer and clocks out the right bitstream with perfect accuracy. &lt;a href="https://github.com/raspberrypi/pico-examples/tree/master/pio">&lt;span style=" text-decoration: underline; color:#0068da;">Same with I2S audio in or out, LED matrix displays, 8-bit or SPI based TFTs, even VGA&lt;/span>&lt;/a>! In MicroPython and CircuitPython you can create PIO control commands to script the peripheral and load it in at runtime. There are 2 PIO peripherals with 4 state machines each.&lt;/p>&lt;/body>&lt;/html></description>
+ <title>Adafruit QT Py RP2040</title>
+ <tags/>
+ <properties>
+  <property name="variant">variant 1</property>
+  <property name="family">Adafruit QT Py RP2040</property>
+  <property name="part number">Adafruit #4900</property>
+  <property name="layer"></property>
+ </properties>
+ <views>
+  <breadboardView>
+   <layers image="breadboard/adafruit_0ccad07846e4bb0c62737f85b3b43472_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/adafruit_0ccad07846e4bb0c62737f85b3b43472_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/adafruit_0ccad07846e4bb0c62737f85b3b43472_1_pcb.svg">
+    <layer layerId="copper1"/>
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+   </layers>
+  </pcbView>
+  <iconView>
+   <layers image="icon/adafruit_0ccad07846e4bb0c62737f85b3b43472_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+ </views>
+ <connectors>
+  <connector name="+3V3" id="connector41" type="male">
+   <description>+3V3</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector41pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector41terminal" layer="schematic" svgId="connector41pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector41pad"/>
+     <p layer="copper1" svgId="connector41pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="+3V3" id="connector12" type="male">
+   <description>+3V3</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector12pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector12terminal" layer="schematic" svgId="connector12pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector12pad"/>
+     <p layer="copper1" svgId="connector12pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="+5V" id="connector45" type="male">
+   <description>+5V</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector45pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector45terminal" layer="schematic" svgId="connector45pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector45pad"/>
+     <p layer="copper1" svgId="connector45pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="A0" id="connector19" type="male">
+   <description>A0</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector19pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector19terminal" layer="schematic" svgId="connector19pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector19pad"/>
+     <p layer="copper1" svgId="connector19pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="A1" id="connector21" type="male">
+   <description>A1</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector21pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector21terminal" layer="schematic" svgId="connector21pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector21pad"/>
+     <p layer="copper1" svgId="connector21pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="A2" id="connector23" type="male">
+   <description>A2</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector23pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector23terminal" layer="schematic" svgId="connector23pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector23pad"/>
+     <p layer="copper1" svgId="connector23pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="A3" id="connector25" type="male">
+   <description>A3</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector25pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector25terminal" layer="schematic" svgId="connector25pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector25pad"/>
+     <p layer="copper1" svgId="connector25pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="SDA" id="connector27" type="male">
+   <description>SDA</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector27pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector27terminal" layer="schematic" svgId="connector27pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector27pad"/>
+     <p layer="copper1" svgId="connector27pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="SCL" id="connector29" type="male">
+   <description>SCL</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector29pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector29terminal" layer="schematic" svgId="connector29pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector29pad"/>
+     <p layer="copper1" svgId="connector29pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="TX" id="connector31" type="male">
+   <description>TX</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector31pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector31terminal" layer="schematic" svgId="connector31pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector31pad"/>
+     <p layer="copper1" svgId="connector31pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="MOSI" id="connector39" type="male">
+   <description>MOSI</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector39pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector39terminal" layer="schematic" svgId="connector39pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector39pad"/>
+     <p layer="copper1" svgId="connector39pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="MISO" id="connector37" type="male">
+   <description>MISO</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector37pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector37terminal" layer="schematic" svgId="connector37pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector37pad"/>
+     <p layer="copper1" svgId="connector37pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="SCK" id="connector35" type="male">
+   <description>SCK</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector35pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector35terminal" layer="schematic" svgId="connector35pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector35pad"/>
+     <p layer="copper1" svgId="connector35pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="RX" id="connector33" type="male">
+   <description>RX</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector33pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector33terminal" layer="schematic" svgId="connector33pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector33pad"/>
+     <p layer="copper1" svgId="connector33pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="SDA1" id="connector13" type="male">
+   <description>SDA1</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector13pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector13terminal" layer="schematic" svgId="connector13pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector13pad"/>
+     <p layer="copper1" svgId="connector13pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="SCL1" id="connector14" type="male">
+   <description>SCL1</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector14pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector14terminal" layer="schematic" svgId="connector14pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector14pad"/>
+     <p layer="copper1" svgId="connector14pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="GND" id="connector43" type="male">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector43pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector43terminal" layer="schematic" svgId="connector43pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector43pad"/>
+     <p layer="copper1" svgId="connector43pad"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="GND" id="connector11" type="male">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector11pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector11terminal" layer="schematic" svgId="connector11pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector11pad"/>
+     <p layer="copper1" svgId="connector11pad"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <buses>
+  <bus id="+3v3">
+   <nodeMember connectorId="connector41"/>
+   <nodeMember connectorId="connector12"/>
+  </bus>
+  <bus id="gnd">
+   <nodeMember connectorId="connector43"/>
+   <nodeMember connectorId="connector11"/>
+  </bus>
+ </buses>
+ <url>https://www.adafruit.com/product/4900</url>
+</module>
